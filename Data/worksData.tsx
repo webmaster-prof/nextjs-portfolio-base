@@ -21,13 +21,19 @@ export const workstData = [
     id: "4",
     src: "/images/Works/work-4.jpg",
     text: "Додаток з замовлення туристичних турів на Next.js",
-    path: "https://next-js-journey-2o75.vercel.app/",
+    path: "https://next-js-journey-axbp59qrf-programer1983s-projects.vercel.app/",
   },
   {
     id: "5",
     src: "/images/Works/work-5.jpg",
     text: "Додаток з пошуку коктелів на React",
     path: "https://react-cocktails-restaurant.vercel.app/",
+  },
+  {
+    id: "10",
+    src: "/images/Works/work-10.jpg",
+    text: "Iнтернет магазин на Next.js",
+    path: "https://next-ecommerc-local-storage-c8z6was1q-programer1983s-projects.vercel.app/",
   },
   {
     id: "6",
@@ -52,12 +58,6 @@ export const workstData = [
     src: "/images/Works/work-9.jpg",
     text: "Додаток на React з замовлення піцци і дисертів",
     path: "https://react-pizza-shopp-landing.vercel.app/",
-  },
-  {
-    id: "10",
-    src: "/images/Works/work-10.jpg",
-    text: "Сайт оренди житла в Дубай на scss js",
-    path: "https://layout-dubai.vercel.app/#",
   },
   {
     id: "11",
@@ -124,5 +124,11 @@ export const workstData = [
     src: "/images/Works/work-21.jpg",
     text: "Мінімалістичний додаток з подорожей на React",
     path: "https://react-travel-app-nu.vercel.app/#",
+  },
+  {
+    id: "22",
+    src: "/images/Works/work-22.jpg",
+    text: "Блог інтерфейс",
+    path: "https://nextjs-tailwind-blog-interface.vercel.app/",
   },
 ];

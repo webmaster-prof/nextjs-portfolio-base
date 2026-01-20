@@ -37,13 +37,14 @@ const Works = () => {
               >
                 <a href={data.path} className="works__link">
                   <div className="works__card">
-                    <Image
-                      src={data.src}
-                      alt="image-site"
-                      width={370}
-                      height={200}
-                      className="works__image"
-                    />
+                    <div className="works__card-img">
+                      <Image
+                        src={data.src}
+                        alt="image-site"
+                        fill
+                        className="works__image"
+                      />
+                    </div>
                   </div>
                   <p className="work__text">{data.text}</p>
                 </a>
